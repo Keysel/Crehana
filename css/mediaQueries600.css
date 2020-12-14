@@ -1,0 +1,18 @@
+@media screen  and (max-width:600px){
+    .header{flex-direction: column;}
+    .titulo{width:70%; margin-left: 25%;}
+    .titulo__nombre{font-size: 4em; ;}
+    .menu{width:100%; flex-direction: column;text-align: center;}
+    .menu__enlace{padding: 4% 0%;}
+    .menu__enlace:hover{background-color:black; color:white;}
+    .primero{text-align: center;}
+    .primero__titulo{text-align: center;}
+    .primero__text{width: 100%;}
+    .anuncio{padding-top:5%;}
+    .anuncio__img{width: 100%; margin-left:0%;}
+    .programador{flex-direction: column; height:auto;}
+    .programador__info{width: 100%; margin-top:10%;}
+    .programador__text{text-align: justify;}
+    .programador__descripcion{width: 100%; margin:10% 0%}
+    .programador__img{width: 80%;}
+}
